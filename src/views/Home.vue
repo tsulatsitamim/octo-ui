@@ -1,18 +1,29 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class=".container">
+    <form 
+      id="myForm" 
+      name="myForm">
+      <input 
+        id="files" 
+        type="file" 
+        name="myForm" 
+        multiple>
+    </form>
+    <div id="target"/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "home",
-  components: {
-    HelloWorld
-  }
-};
+  name: 'Home',
+  mounted() {
+    window.onload = function() {
+      window.Lily.ready({
+        target: 'target',
+        file: 'files',
+        path: '/Madeleine.js/src',
+      })
+    }
+  },
+}
 </script>

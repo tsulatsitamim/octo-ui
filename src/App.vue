@@ -9,8 +9,11 @@
 </template>
 
 <style lang="scss">
+@import './assets/Madeleine/css/Madeleine.css';
+@import '@/assets/scss/main.scss';
+
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
