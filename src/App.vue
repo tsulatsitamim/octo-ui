@@ -9,7 +9,6 @@
 </template>
 
 <style lang="scss">
-@import './assets/Madeleine/css/Madeleine.css';
 @import '@/assets/scss/main.scss';
 
 #app {

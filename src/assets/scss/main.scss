@@ -1,1 +1,13 @@
 @import '~bulma/bulma';
+
+.viewer__wrapper {
+  display: flex;
+  justify-content: center;
+
+  .viewer__container {
+    height: 500px;
+    width: 600px;
+    position: relative;
+    background: radial-gradient(at center center, rgb(85, 85, 85) 27%, rgb(43, 43, 43) 100%);
+  }
+}
